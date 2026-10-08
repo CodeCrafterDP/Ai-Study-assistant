@@ -19,7 +19,8 @@ togglePassword.addEventListener("click", function () {
             "Hide password"
         );
 
-    } else {
+    }
+       else {
 
         passwordInput.type = "password";
 
