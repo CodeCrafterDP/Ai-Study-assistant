@@ -242,18 +242,11 @@ form.addEventListener("submit", async (event) => {
 
     console.log("Signup successful:", data);
 
+
     alert(
-        "Registration successful! Please check your email for verification."
-    );
+    "Registration successful! Please verify your email, then login."
+);
 
-
-    // Reset form
-
-    form.reset();
-
-    strengthBar.style.width = "0%";
-
-    passwordHint.textContent =
-        "Use at least 8 characters";
+window.location.href = "../login-page/index.html";
 
 });
