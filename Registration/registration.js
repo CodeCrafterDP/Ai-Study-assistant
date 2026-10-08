@@ -2,9 +2,9 @@
 // SUPABASE CONNECTION
 // ==========================================
 
-const SUPABASE_URL = "https://mqlxezpfruivkpegolyw.supabase.co";
+const SUPABASE_URL = "https://lauhltxwzasfjjksbihx.supabase.co";
 
-const SUPABASE_KEY = "sb_publishable_EIA92Mr-AHk10lmFD2Tfsg_e1gdrcXH";
+const SUPABASE_KEY = "sb_publishable_2PTLzATKATqz4hoB--4j3w_WCJwKKm2";
 
 const supabaseClient = supabase.createClient(
     SUPABASE_URL,
@@ -211,7 +211,7 @@ form.addEventListener("submit", async (event) => {
             options: {
 
                 data: {
-                    username: usernameValue
+                     display_name: usernameValue
                 }
 
             }
